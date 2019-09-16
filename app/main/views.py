@@ -1,6 +1,6 @@
 from flask import render_template, request, redirect, url_for
 from . import main
-from ..requests import get_source, get_articles
+from ..requests import get_news, get_articles
 from ..models import Source, Article
 
 # Views
@@ -10,15 +10,15 @@ def index():
     '''
     View root page function that returns the index page and its data
     '''
-    news_source = get_source()
+    news_source = get_news('category')
     
     title = "Welcome to News Highlight"
     return render_template('index.html', title = title, sources = news_source)
 
-@main.route('/articles/<articles_id>')
-def articles(articles_id):
+@main.route('/news/<id>')
+def news (id):
     '''
-    View articles page function that returns artcicles details and its data
+    Returns the news article from a highlight
     '''
-    articles = get_articles()
-    return render_template('articles.html',  articles = articles)
+    news_args = get_articles(id)
+    return render_template("articles.html", news=news_args)
