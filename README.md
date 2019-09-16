@@ -10,12 +10,13 @@ News Highlight is a web application that displays a list of news sources from ar
 ## TECHNOLOGY USED
 * find visual studio
 * ubuntu , terminal
-* install pyperclip
+* pip3 install flask
 * install python3.6
 
   
 ## BDD
-
+* The user visits the app url in any browser and interacts with the application
+* The user can view the news sources and click on the news sources to view the news articles
 
 ## PROJECT LINK
    https://github.com/aline-bebe/password_locker
