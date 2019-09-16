@@ -9,7 +9,7 @@ News Highlight is a web application that displays a list of news sources from ar
 
 ## TECHNOLOGY USED
 * find visual studio
-* ubuntu , terminal
+* ubuntu
 * pip3 install flask
 * install python3.6
 
