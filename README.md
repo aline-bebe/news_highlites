@@ -19,7 +19,7 @@ News Highlight is a web application that displays a list of news sources from ar
 * The user can view the news sources and click on the news sources to view the news articles
 
 ## PROJECT LINK
-   https://github.com/aline-bebe/password_locker
+   https://github.com/aline-bebe/news_highlites
 
 
 
