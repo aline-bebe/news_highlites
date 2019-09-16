@@ -8,7 +8,7 @@ class sourcesTest(unittest.TestCase):
 
     def setUp(self):
         '''
-        Set up method that will run before every Test
+        Set up method that will run before every Tests
         '''
         self.news_source = Source('progm','program','Python Must Be Crazy','progrm.com','senior','england')
 
